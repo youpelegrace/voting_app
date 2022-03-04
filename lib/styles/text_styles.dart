@@ -1,26 +1,23 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
+// header text//
 var robotoStyle = TextStyle(
   fontFamily: "Roboto",
   fontSize: 20.sp,
-  fontWeight: FontWeight.w300,
+  fontWeight: FontWeight.w900,
 );
 
+// Semi header text//
 var nunitoStyle = TextStyle(
   fontFamily: "Nunito",
-  fontSize: 10.sp,
-  fontWeight: FontWeight.w300,
+  fontSize: 18.sp,
+  fontWeight: FontWeight.w400,
 );
 
+// Body text//
 var sspStyle = TextStyle(
   fontFamily: "Source Sans Pro",
-  fontSize: 10.sp,
-  fontWeight: FontWeight.w300,
-);
-
-var avenirNextStyle = TextStyle(
-  fontSize: 10.sp,
-  fontFamily: "Avenir Next",
+  fontSize: 14.sp,
   fontWeight: FontWeight.w300,
 );
