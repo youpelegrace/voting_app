@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:voting_app/presentation/ui_views/home/homepage.dart';
+
+import 'package:voting_app/presentation/ui_views/auth/splash_screen.dart';
 import 'package:voting_app/utils/navigator.dart';
 
 void main() {
@@ -29,7 +30,7 @@ class MyApp extends StatelessWidget {
           debugShowCheckedModeBanner: false,
           navigatorKey: navigator.key,
           title: 'Flutter Demo',
-          home: const HomePage()),
+          home: SplashScreen()),
     );
   }
 }

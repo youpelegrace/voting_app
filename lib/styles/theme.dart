@@ -4,7 +4,7 @@ import 'package:voting_app/styles/colors.dart';
 ThemeData lightThemeData(BuildContext buildContext) {
   return ThemeData.light().copyWith(
     primaryColor: kPrimaryColor,
-    scaffoldBackgroundColor: Colors.white.withOpacity(0.95),
+    scaffoldBackgroundColor: Colors.white,
     appBarTheme:
         const AppBarTheme(backgroundColor: kPrimaryColor, elevation: 0),
     iconTheme: const IconThemeData(color: kContentColorLightTheme),

@@ -47,7 +47,7 @@ InputDecoration fieldInputDecoration(
     errorStyle: const TextStyle(),
     // errorMaxLines: 4,
     // helperMaxLines: 4,
-    contentPadding: const EdgeInsets.symmetric(vertical: 4, horizontal: 10),
+
     isDense: true,
   );
 }
